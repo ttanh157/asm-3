@@ -1,0 +1,98 @@
+@media screen and (max-width: 767px) {
+  body {
+    background-color: none;
+  }
+  .d--none {
+    display: none;
+  }
+  .banner--info h1 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .navbar {
+    display: block;
+  }
+  .container--nav a {
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    padding: 15px 20px;
+    justify-content: start;
+    align-items: center;
+    color: #090909;
+    width: 100%;
+  }
+  .ovuong {
+    background-color: white;
+  }
+  #container--about {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    /* width: 1200px; */
+  }
+  .personal-info-icon {
+    display: inline-block;
+  }
+  #target {
+    width: 100vw;
+  }
+  #personal-info {
+    width: 100vw;
+  }
+
+  .container_item__1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    color: orange;
+    background-color: orange;
+    left: 0%;
+    right: 10%;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr auto auto auto;
+  width: auto;
+}
+.grid1 img {
+  height: 100%;
+}
+
+table {
+  border-bottom: 1px solid gray;
+  border-collapse: collapse;
+  width: fit-content;
+}
+td {
+  vertical-align: top;
+  padding: 10px 10px;
+  border-top: 1px solid gray;
+  height: fit-content;
+}
+th {
+  vertical-align: top;
+  padding: 10px 10px;
+  border-top: 1px solid gray;
+  height: fit-content;
+  text-align: left;
+  width: auto;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ol,
+ul {
+  padding-left: 0rem;
+}
